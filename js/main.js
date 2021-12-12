@@ -7,4 +7,11 @@ const button = document.querySelector('.fa-bars');
 const closeButton = document.querySelector('.close');
 
 // Funzione Apertura ham menu
+button.addEventListener('click', function () {
+    hamburger.classList.add('active');
+})
+
 // Funzione Chiusura ham menu
+closeButton.addEventListener('click', function () {
+    hamburger.classList.remove('active');
+})
